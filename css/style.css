@@ -1,0 +1,31 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    margin: 0;
+}
+
+.flex-container
+{
+    display: flex;
+    height: 100px;
+    width: 100vw;
+    margin: 0;
+    background-color: aqua;
+}
+
+.flex-item
+{
+    flex: 1;
+    background-color: green;
+    border: 5px solid black;
+    width: 10vw;
+}
+
+#big-flex-item
+{
+    flex-grow: 2;
+}
