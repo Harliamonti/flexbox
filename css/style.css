@@ -71,6 +71,16 @@ img
     justify-content: space-between;
 }
 
+.test-flex-container2
+{
+    display: flex;
+    background-color: #ddb8ff;
+    height: 80vh;
+    width: 100vw;
+    justify-content: center;
+    gap: 10px;
+}
+
 .test-flex-container div
 {
     height: 100px;
@@ -93,6 +103,11 @@ img
 {
     background-color: #ff0000;
     align-self: end;
+}
+
+.test-flex-item
+{
+    background-color: yellow;
 }
 
 /* flex and flex grow etc will make the flex item grow to take up remaining space */
