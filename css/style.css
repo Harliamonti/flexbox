@@ -71,9 +71,11 @@ img
     justify-content: space-between;
 }
 
-#one, #two, #three
+.test-flex-container div
 {
     height: 100px;
+    display: flex;
+    align-items: center;
 }
 
 #one
