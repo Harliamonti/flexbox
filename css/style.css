@@ -13,7 +13,7 @@ body
     display: flex;
     height: 100px;
     background-color: aqua;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 .flex-item
@@ -25,5 +25,11 @@ body
 
 #big-flex-item
 {
-    flex-grow: 1;
+    flex-grow: 1; 
+}
+
+img
+{
+    width: 300px;
+    height: 300px;
 }
