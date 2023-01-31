@@ -61,4 +61,36 @@ img
     width: 300px;
     height: 300px;
 }
+
+.test-flex-container
+{
+    display: flex;
+    background-color: #ddb8ff;
+    height: 80vh;
+    width: 100vw;
+    justify-content: space-between;
+}
+
+#one, #two, #three
+{
+    height: 100px;
+}
+
+#one
+{
+    background-color: #fbff00;
+}
+
+#two
+{
+    background-color: #d400ff;
+    align-self: center;
+}
+
+#three
+{
+    background-color: #ff0000;
+    align-self: end;
+}
+
 /* flex and flex grow etc will make the flex item grow to take up remaining space */
