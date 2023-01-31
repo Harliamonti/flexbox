@@ -30,6 +30,13 @@ body
 
 }
 
+#bigger-flex-item
+{
+    width: 800px;
+    background-color: #d42525;
+
+}
+
 img
 {
     width: 300px;
