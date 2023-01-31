@@ -11,21 +11,23 @@ body
 .flex-container
 {
     display: flex;
-    height: 100px;
+    height: auto;
     background-color: aqua;
     justify-content: space-around;
 }
 
 .flex-item
 {
-    flex: 1;
     background-color: green;
     border: 5px solid black;
+    width: 300px;
+    height: 300px;
 }
 
 #big-flex-item
 {
-    flex-grow: 1; 
+    width: 500px; 
+
 }
 
 img
@@ -33,3 +35,4 @@ img
     width: 300px;
     height: 300px;
 }
+/* flex and flex grow etc will make the flex item grow to take up remaining space */
